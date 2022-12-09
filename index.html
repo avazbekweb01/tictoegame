@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Toe game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+     <div class="container">
+      
+           <div class="box-card">
+            <div class="modal none">
+                 <div class="modal-win">
+                       <h3>You are win <small> ☻☻</small></h3>
+                       <button class="btn">Restart</button>
+                 </div>
+                 <div class="modal-lose none">
+                    <h3>You are lose !</h3>
+                    <button class="btn">Restart</button>
+              </div>
+              <div class="modal-frenship none">
+                <h3>You are frendship !</h3>
+                <button class="btn">Restart</button>
+          </div>
+             
+            </div>
+              <section>
+              <div class="card-1 card" id="0"></div>
+              <div class="card-1 card" id="1"></div>
+              <div class="card-1 card" id="2"></div>
+              </section>
+                <section>
+                    <div class="card-1 card" id="3"></div>
+                    <div class="card-1 card" id="4"></div>
+                    <div class="card-1 card" id="5"></div>
+                </section>
+               <section>
+
+                <div class="card-1 card" id="6"></div>
+                <div class="card-1 card" id="7"></div>
+                <div class="card-1 card" id="8"></div>
+               </section>
+           </div>
+           <audio src="song/10-Video-Game-Victory-Themes-Mini-Keyboard.m4a"></audio>
+     </div>
+     <script src="app.js"></script>
+</body>
+</html>
